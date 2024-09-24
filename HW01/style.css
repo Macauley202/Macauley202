@@ -1,0 +1,120 @@
+body {
+	background-image: url(kurp2.jpg);
+    font-family: "sans-serif",Times New Roman,Times,serif;
+    color: #333333;
+    margin: 0;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 0;
+}
+
+header {
+	background-color: #333333;
+}
+
+h1 {
+	color: burlywood;
+	font-size: 28px;
+	text-align: center;
+    padding: 20px;
+}
+
+h2  {
+	font-size: 28px;
+	width: 1024px;
+}
+
+h3{
+	font-size: 28px;
+}
+
+h4{
+	font-size: 28px;
+}
+
+h5{
+	font-size: 28px;
+}
+
+h6{
+	font-size: 28px;
+}
+
+#Quote{
+	color: #333333;
+
+}
+
+
+.container {
+	width: 1024px;
+	margin: 0 auto;
+}
+
+#main-bio, #bio-image, #contact-info {
+    float: left;
+}
+
+#table{
+	float: right;
+	width: 30%;
+	line-height: 150%;
+}
+
+#bio-image {
+	width: 200px;
+    margin-right: 20px;
+}
+
+#main-bio {
+	width: 70%;
+	line-height: 150%;
+}
+
+#hobby{
+	margin: 0%;
+}
+
+#contact-info {
+	width: 30%;
+	line-height: 150%;
+}
+
+a {
+	color: blue;
+}
+
+.zebra-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.zebra-table tr:nth-child(odd) {
+    background-color: #f2f2f2;
+}
+
+.zebra-table tr:nth-child(even) {
+    background-color: #ffffff;
+}
+
+.zebra-table td {
+    padding: 10px;
+}
+
+.zebra-table a {
+    text-decoration: none;
+    color: #0000EE;
+}
+
+.zebra-table a:hover {
+    text-decoration: underline;
+}
+
+a :hover{
+	color: blueviolet;
+}
+
+.highlight{
+	color: red;
+	font-weight: bold;
+}
